@@ -36,6 +36,101 @@ body {
     margin-top: 925px;
 }
 
+#block-boxes1 {
+    margin-left: 700px;
+    position: absolute;
+    z-index: 0;
+    border-radius: 10px;
+    background: #8dc8d3;
+    padding: 20px;
+    width: 250px;
+    height: 150px;
+    margin-top: 925px;
+}
+
+.Title-Envioromental{
+    text-align: left;
+    font-size: x-large;
+    margin-left: 5px;
+}
+.paragraph-Envioromental{
+    text-align: left;
+    margin-top: 50px;
+    font-size: large;
+    margin-left: 5px;
+}
+
+#block-boxes2 {
+    margin-left: 1100px;
+    position: absolute;
+    z-index: 0;
+    border-radius: 10px;
+    background: #8dc8d3;
+    padding: 20px;
+    width: 250px;
+    height: 150px;
+    margin-top: 925px;
+}
+
+.Title-Corporate{
+    text-align: left;
+    font-size: x-large;
+    margin-left: 5px;
+}
+.paragraph-Corporate{
+    text-align: left;
+    margin-top: 50px;
+    font-size: large;
+    margin-left: 5px;
+}
+
+#block-boxes3 {
+    margin-left: 700px;
+    position: absolute;
+    z-index: 0;
+    border-radius: 10px;
+    background: #8dc8d3;
+    padding: 20px;
+    width: 250px;
+    height: 150px;
+    margin-top: 1275px;
+}
+
+.Title-Information{
+    text-align: left;
+    font-size: x-large;
+    margin-left: 5px;
+}
+.paragraph-Information{
+    text-align: left;
+    margin-top: 50px;
+    font-size: large;
+    margin-left: 5px;
+}
+
+#block-boxes4 {
+    margin-left: 1100px;
+    position: absolute;
+    z-index: 0;
+    border-radius: 10px;
+    background: #8dc8d3;
+    padding: 20px;
+    width: 250px;
+    height: 150px;
+    margin-top: 1275px;
+}
+
+.Title-Other{
+    text-align: left;
+    font-size: x-large;
+    margin-left: 5px;
+}
+.paragraph-Other{
+    text-align: left;
+    margin-top: 50px;
+    font-size: large;
+    margin-left: 5px;
+}
 
 .button {
     background-color: #094b72;
@@ -69,10 +164,10 @@ body {
     color: #000000;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-    font-size:130%
-
+    font-size:130%;
+    font-weight: 500;
 }
+
 .block-maintext {
     position: sticky;
     z-index: 2;
@@ -146,6 +241,17 @@ nav a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
 }
+
+
+.block-rectangle{
+    background-color: #b8d6e9;
+}
+
+
+
+
+
+
 * {
     box-sizing: border-box;
   }
