@@ -119,6 +119,7 @@ nav a {
     color: #000000;
     text-decoration: none;
     margin: 0 10px;
+    font-weight: 700;
 }
 
 .container {
@@ -155,4 +156,11 @@ nav a {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .site-footer{
+    background-color: #094b72;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
   }
