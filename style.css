@@ -14,6 +14,7 @@ body {
     height: 30px;   
     margin-left:250px ;
 }
+
 #border2 {
     position: absolute;
     z-index: 2;
@@ -24,6 +25,7 @@ body {
     height: 2px;   
     margin-left:260px ;
 }
+
 #border3 {
     margin-left: 1100px;
     position: absolute;
@@ -147,18 +149,6 @@ body {
     cursor: pointer;
  }
 
- .button2 {border-radius: 4px;}
- p{
-    font-family:Arial, Helvetica, sans-serif;
- }
-
-.new{
-    
-    color: #e7f6ff;
-    text-align:center;
-    margin-bottom: 5px;
-
-}
 
 .block-name{
     color: #000000;
@@ -197,6 +187,7 @@ header {
     padding: 20px;
     text-align: left;
 }
+
 sec {
     box-sizing: border-box;
   }
@@ -209,6 +200,7 @@ sec {
     background-color: #f2f7ff;
     padding: 20px;
   }
+
 nav {
     background-color: #ffffff;
     color: #fff;
@@ -216,6 +208,7 @@ nav {
     margin-left: 250px;
     text-align: center;
 }
+
 nav a {
     color: #000000;
     text-decoration: none;
@@ -228,20 +221,35 @@ nav a {
     justify-content: space-around;
     padding: 100px;
 }
+
 .category {
     list-style-type: none;
     padding: 0;
 }
+
 .category h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 10px;
 }
+
 .category a {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
 }
 
+.button2 {border-radius: 4px;}
+p{
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+.new{
+   
+   color: #e7f6ff;
+   text-align:center;
+   margin-bottom: 5px;
+
+}
 
 .block-rectangle{
     background-color: #b8d6e9;
