@@ -4,6 +4,13 @@ body {
     padding: 0;
 }
 
+#background {
+    background-color: #f2f7ff;
+    padding: 20px;
+    background-size: 500px, 500px, auto;
+    margin-top: 900px;
+}
+
 #border {
     position: absolute;
     z-index: 1;
@@ -31,23 +38,23 @@ body {
     position: absolute;
     z-index: 3;
     border-radius: 10px;
-    background: #ffffff;
+    background: #f2f7ff;
     padding: 20px;
-    width: 360px;
+    width: 350px;
     height: 90px;
     margin-top: 925px;
 }
 
 #block-boxes1 {
-    margin-left: 700px;
+    margin-left: 750px;
     position: absolute;
     z-index: 0;
     border-radius: 10px;
-    background: #8dc8d3;
-    padding: 20px;
+    background: #f2f7ff;
+    padding: 15px;
     width: 250px;
     height: 150px;
-    margin-top: 925px;
+    margin-top: 350px;
 }
 
 .Title-Envioromental{
@@ -57,21 +64,21 @@ body {
 }
 .paragraph-Envioromental{
     text-align: left;
-    margin-top: 50px;
+    margin-top: 75px;
     font-size: large;
     margin-left: 5px;
 }
 
 #block-boxes2 {
-    margin-left: 1100px;
+    margin-left: 1050px;
     position: absolute;
     z-index: 0;
     border-radius: 10px;
-    background: #8dc8d3;
-    padding: 20px;
-    width: 250px;
+    background: #f2f7ff;
+    padding: 15px;
+    width: 260px;
     height: 150px;
-    margin-top: 925px;
+    margin-top: 275px;
 }
 
 .Title-Corporate{
@@ -81,21 +88,21 @@ body {
 }
 .paragraph-Corporate{
     text-align: left;
-    margin-top: 50px;
+    margin-top: 150px;
     font-size: large;
     margin-left: 5px;
 }
 
 #block-boxes3 {
-    margin-left: 700px;
+    margin-left: 750px;
     position: absolute;
     z-index: 0;
     border-radius: 10px;
-    background: #8dc8d3;
-    padding: 20px;
+    background: #f2f7ff;
+    padding: 15px;
     width: 250px;
     height: 150px;
-    margin-top: 1275px;
+    margin-top: 475px;
 }
 
 .Title-Information{
@@ -105,21 +112,21 @@ body {
 }
 .paragraph-Information{
     text-align: left;
-    margin-top: 50px;
+    margin-top: 230px;
     font-size: large;
     margin-left: 5px;
 }
 
 #block-boxes4 {
-    margin-left: 1100px;
+    margin-left: 1050px;
     position: absolute;
     z-index: 0;
     border-radius: 10px;
-    background: #8dc8d3;
+    background: #f2f7ff;
     padding: 20px;
     width: 250px;
-    height: 150px;
-    margin-top: 1275px;
+    height: 170px;
+    margin-top: 395px;
 }
 
 .Title-Other{
@@ -129,9 +136,49 @@ body {
 }
 .paragraph-Other{
     text-align: left;
-    margin-top: 50px;
+    margin-top: 280px;
     font-size: large;
     margin-left: 5px;
+}
+
+.Legalization-text{
+    font-family:'Times New Roman', Times, serif;
+    margin-top:400px;
+    margin-left: 250px;
+    font-size:350%;
+    color:#2d2f30;
+    font-weight: 550;
+}
+
+.Legalization-subtext{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #909191;
+    font-size: 140%;
+    margin-left: 260px;
+    margin-top: 50px;
+
+}
+
+.testimonial{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 400%;
+    font-weight: 600;
+    margin-top: 400px;
+    color: #2d2f30
+}
+
+#testimonial-box1 {
+    margin-left: 750px;
+    position: absolute;
+    z-index: 0;
+    border-radius: 10px;
+    background: #f2f7ff;
+    padding: 15px;
+    width: 250px;
+    height: 150px;
+    margin-top: 350px;
 }
 
 .button {
@@ -156,6 +203,13 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size:130%;
     font-weight: 500;
+}
+
+.block-job{
+    color: #2d2f30;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 500px;
 }
 
 .block-maintext {
@@ -216,11 +270,7 @@ nav a {
     font-weight: 700;
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
-    padding: 100px;
-}
+
 
 .category {
     list-style-type: none;
@@ -257,38 +307,13 @@ p{
 
 
 
-
-
-
-* {
-    box-sizing: border-box;
-  }
-  
-  /* Create four equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 25%;
-    padding: 20px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .site-footer{
-    position: relative;
+.site-footer{
     background-color: #094b72;
     color: #fff;
     padding: 20px;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
 
   }
-  
-  b{
-    margin-left: 90px;
-    font-family:Arial, Helvetica, sans-serif;
-    color: #567598;
-}
