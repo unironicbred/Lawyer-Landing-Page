@@ -18,9 +18,32 @@ body {
   padding-right: 20px;
 }
 
+.site-header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+nav {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 10px 0;
+  margin-left: 250px;
+  text-align: center;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 700;
+}
+
 /*Typography*/
 
 h1 {
+  color: #094b72;
   font-size: 90px;
   font-weight: 700;
 }
@@ -31,19 +54,50 @@ h2 {
 h3 {
 }
 
-/*Block Testimonial styles*/
-.block-testimonial {
-  background-color: red;
+/*Block Text styles*/
+.block-text {
+  background-color: rgb(255, 255, 255);
   padding-top: 50px;
   padding-bottom: 50px;
+  line-height: 108px;
+}
+
+.block-subtext{
+  font-size: 24px;
+  color:#4f4f4f;
+  line-height: 37.92px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Footer styles*/
 
-.site-footer {
-  background: #094b72;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.site-footer{
+  background-color: #094b72;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+
+}
+
+.category {
+  list-style-type: none;
+  padding: 0;
+  min-width: 190px;
+  text-align: left;
+}
+
+.category h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+
+.category a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 /*components styles */
@@ -51,14 +105,24 @@ h3 {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 .btn {
   display: inline-block;
   text-decoration: none;
-  background: black;
+  background: #094b72;
   color: white;
-  padding: 12px 20px;
-  border-radius: 12px;
+  padding: 25px 36px;
+  border-radius: 8px;
   border-color: transparent;
   font-size: 16px;
   line-height: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.trusted {
+  padding-top: 115px;
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #909191;
+  font-size: 22px;
 }
