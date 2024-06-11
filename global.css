@@ -40,6 +40,14 @@ nav a {
   font-weight: 700;
 }
 
+.legalization{
+  flex-wrap: nowrap;
+  background-color: #f2f7ff;
+  color: #fff;
+  padding: 0px;
+  text-align:justify;
+}
+
 /*Typography*/
 
 h1 {
@@ -49,10 +57,57 @@ h1 {
 }
 
 h2 {
+  color: #2D2F30;
+  font-size: 48px;
+  font-weight: 700;
+  padding-left: 127px;
+  padding-top: 174px;
+  line-height: 63.98px;
 }
 
-h3 {
+h4 {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #363940;
+  padding-top: 79px;
+  padding-right: 51px;
+  padding-left: 24px;
 }
+
+h5 {
+  text-align:left;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8B8C8C;
+  padding: 10px 24px 24px 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.legalization-subtext{
+  color: #8B8C8C;
+  font-size: 20px;
+  line-height: 36px;
+  padding-left: 155px;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Block Box*/
+#block-box {
+  border-radius: 10px;
+  background: #ffffff;
+  padding-bottom: 28px;
+  width: 256px;
+  height: 253px;
+}
+
+.paragraph-box{
+  text-align:left;
+  font-size: large;
+}
+
 
 /*Block Text styles*/
 .block-text {
@@ -74,10 +129,9 @@ h3 {
 .site-footer{
   background-color: #094b72;
   color: #fff;
-  padding: 20px;
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   padding: 100px;
 
 }
