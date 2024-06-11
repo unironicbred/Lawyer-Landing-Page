@@ -18,6 +18,11 @@ body {
   padding-right: 20px;
 }
 
+.flex{
+  display: flex;
+  justify-content:left;
+}
+
 .site-header {
     background-color: #ffffff;
     color: #fff;
@@ -41,11 +46,11 @@ nav a {
 }
 
 .legalization{
-  flex-wrap: nowrap;
   background-color: #f2f7ff;
   color: #fff;
   padding: 0px;
   text-align:justify;
+  padding-bottom: 126px;
 }
 
 /*Typography*/
@@ -60,7 +65,7 @@ h2 {
   color: #2D2F30;
   font-size: 48px;
   font-weight: 700;
-  padding-left: 127px;
+  padding-left: 0px;
   padding-top: 174px;
   line-height: 63.98px;
 }
@@ -85,11 +90,11 @@ h5 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.legalization-subtext{
+.subtext{
   color: #8B8C8C;
   font-size: 20px;
   line-height: 36px;
-  padding-left: 155px;
+  padding-left: 8px;
   padding-top: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -98,16 +103,12 @@ h5 {
 #block-box {
   border-radius: 10px;
   background: #ffffff;
+  margin-top: 126px;
+  margin-right: 30px;
   padding-bottom: 28px;
   width: 256px;
-  height: 253px;
+  height: 275px;
 }
-
-.paragraph-box{
-  text-align:left;
-  font-size: large;
-}
-
 
 /*Block Text styles*/
 .block-text {
@@ -121,6 +122,30 @@ h5 {
   font-size: 24px;
   color:#4f4f4f;
   line-height: 37.92px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-banner{
+  padding-top: 126px;
+  background-color: #094b72;
+  color: #fff;
+  text-align: center;
+  padding: 0px;
+
+}
+
+.banner-text{
+  color: white;
+  padding-top: 53px;
+  font-size:48px;
+  font-weight: 900;
+}
+
+.banner-subtext{
+  color: white;
+  padding-top: 6px;
+  font-size:18px;
+  font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
 }
 
